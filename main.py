@@ -4,6 +4,7 @@ from scripts.argument_parser import AIFaceComparerArguments, parse_arguments
 from scripts.file_utils import ImageDirectoryLoader
 
 
+
 if __name__ == "__main__":
     # Parse input arguments
     config: AIFaceComparerArguments = parse_arguments()
